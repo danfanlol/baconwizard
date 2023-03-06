@@ -5,7 +5,7 @@ let cors = require("cors");
 app.use(cors());
 
 app.post("/api", (req,res) => {
-  res.send("n word")
+  res.send("test")
 })
 
 
